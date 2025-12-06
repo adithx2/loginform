@@ -4,6 +4,7 @@ import Counter1 from './Hooks/Counter1'
 import Eventhandle from './Eventhandle'
 import FetchData from './Hooks/FetchData'
 import FetchWithAxios from './Hooks/FetchwithAxios'
+import Loginform from './Hooks/Loginform'
 
 function App() {
 
@@ -16,7 +17,9 @@ function App() {
 
     {/* <Counter1/> */}
 
-    <FetchWithAxios/>
+    {/* <FetchWithAxios/> */}
+
+    <Loginform/>
 
     {/* <FetchData/> */}
 
